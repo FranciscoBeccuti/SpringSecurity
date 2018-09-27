@@ -1,0 +1,17 @@
+.admin-message-text {
+	font-style: normal;
+	font-size: 22px;
+	color: #004080;
+}
+
+.admin-border {
+	color: #fff;
+	background-color: #ec2828;
+	border-color: #337ab7;
+}
+
+.user-border {
+	color: #fff;
+	background-color: #283fec;
+	border-color: #337ab7;
+}
