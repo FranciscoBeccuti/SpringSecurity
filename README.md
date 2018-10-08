@@ -309,18 +309,22 @@ The IMPORT.SQL file, which exists in the project, contains SQLs that are used to
 Keep in mind that this SQL is executed every time the project is started, so in Production environments it is recommended to delete.
 
 ### Tests
-First, check that the MySQL engine is running.
-Second, Start the project. Right button on the name of the project, RUN AS, SPRING BOOT APP
+Check
+* That the MySQL engine is running.
+* Start the project. Right button on the name of the project, RUN AS, SPRING BOOT APP
 
-To check the project enter
-http://localhost:8080/home
-user: admin@admin.com
-pass: admin12345
 
-To check REST service (you must be authorized)
-http://localhost:8080/rest/role/ADMIN
-ADMIN is a ROLE
+To test the project
 
-If you want to test the USER role, you must create a new user.
+* http://localhost:8080/home
+* user: admin@admin.com
+* pass: admin12345
+
+To test RESTFul service (you must be authorized)
+* http://localhost:8080/rest/role/ADMIN
+* ADMIN is a ROLE
+
+### Create a new user
+* If you want to test the USER role, you must create a new user.
 
 
